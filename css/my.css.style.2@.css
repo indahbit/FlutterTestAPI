@@ -1,0 +1,111 @@
+.btn, .btnLeft
+{
+	width: 200px;
+	border:1px solid #000;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 5px;
+	text-align:center;
+	font-size: 12pt;
+	float:right;
+	cursor:pointer;
+
+    -webkit-transition-property: background-color, color; /* Safari */
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-property: background-color, color;
+    transition-duration: 1s;      
+}
+.btnLeft { float:left !important; }
+
+.btnSearch, .btnSubmit, .btnApprove
+{ background-color: #003300; color: white; }
+.btnSearch:hover, .btnSubmit:hover, .btnApprove:hover
+{ background-color: #66ff33; color: black; }
+
+.btnClose 		{ background-color: #660033; color: white; }
+.btnClose:hover	{ background-color: #cc0066; color: black; }
+
+.btnFilter, .btnEdit 
+{ background-color: #003366; color: white; }
+.btnFilter:hover, .btnEdit:hover
+{ background-color: #0099cc; color: black; }
+
+.btnReset, .btnDelete, .btnReject
+{ background-color: #800000; color: white; }
+.btnReset:hover, .btnDelete:hover, .btnReject:hover
+{ background-color: #ff0000; color: black; }
+
+.btnAdd			{ background-color: #333333; color:white;} /*dark grey*/
+.btnAdd:hover 	{ background-color: #b3b3b3; color:black;} /*light grey*/
+
+.btnCancel 		{ background-color: #ff3300; color: white; }
+.btnCancel:hover{ background-color: #ff6600; color: black; }
+
+.btnSpare		{ background-color: #990033; color: white; }
+.btnSpare:hover { background-color: #ff0066; color: black; }
+
+.filter
+{
+	margin-left:20px; margin-right:20px; 
+}
+.filter_form
+{
+	min-height:60px; background-color:#CCC; border:1px solid #000; border-radius:10px;
+}
+.filter_form_input
+{
+	float:left; height:50px; padding:5px;
+}
+.float_left { float:left; }
+.float_right { float:right; }
+.float_none { float:none; }
+
+.form_title
+{
+	border-bottom:1px solid #000;
+	margin-bottom:10px;
+	padding:10px;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align:center;
+	background-color:#CCC;
+	border-radius:10px 10px 0px 0px;
+}
+
+.formAjax 
+{
+	width: 450px;
+	min-height: 300px;
+}
+
+.formInputAjaxButton
+{
+	margin-top:100px !important;
+	margin-bottom:100px !important;
+}
+
+.formInputLabel, .formInputData
+{
+	font-size:10pt;
+	padding:5px;
+	margin:5px;
+}
+.formInputLabel
+{
+	width:25%;
+	float:left;
+}
+.formInputData
+{
+	width:70%;
+	float:left;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.formInputHeader
+{
+	padding:5px;
+	margin:5px;
+	font-size: 12pt;
+	font-weight: bold;
+}

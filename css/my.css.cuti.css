@@ -1,0 +1,91 @@
+#calendar_container{
+	width: 100%;
+}
+
+.month_container{
+	width:250px;
+	height:225px;
+	background: #fff;
+	box-shadow: #999 0px 0px 5px;
+	float:left;
+	margin: 5px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.month_name{
+	padding: 5px;
+	height:20px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #fff;
+	background: #099;
+}
+.month_days{
+	padding: 5px;
+	width:240px;
+}
+.date_container_off{
+	width: 28px;
+	height: 20px;
+	padding: 2px;
+	border: 1px #ddd solid;
+	float: left;
+}
+.date_container{
+	width: 32px;
+	height: 24px;
+	border: 1px #ccc solid;
+	float: left;
+	line-height: 24px;
+	text-align: center;
+	cursor: pointer;
+}
+.date_container:hover{
+	border: 1px #099 solid;
+	color:#099; 
+}
+.day_name{
+	width: 28px;
+	height: 20px;
+	padding: 2px;
+	background: #ddd;
+	border: 1px #ccc solid;
+	float: left;
+	line-height: 20px;
+	text-align: center;
+}
+.day_event_1{
+	background:red;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	border-bottom-right-radius: 7px;
+	margin-right:25px;
+}
+.day_event_2{
+	background:green;
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	border-bottom-left-radius: 7px;
+	margin-left:25px;
+}
+
+.box_date_unprocessed {
+	background-color: #66FF99 !important;
+}
+.box_date_waiting_confirmation {
+	background-color: #FF6666 !important;
+}
+.box_date_approved {
+	background-color: #9966FF !important;
+}
+.box_date_rejected {
+	background-color: #FF9900 !important;
+}
+.box_date_cancelled {
+	background-color: #B89470 !important;
+}
+.box_request_bawahan {
+	background-color: #ff9933 !important;
+}

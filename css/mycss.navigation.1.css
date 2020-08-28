@@ -1,0 +1,229 @@
+.navigation
+{
+	background-color: #00143D;
+	background-image: url("../images/login-background.jpg");
+
+	/*chinese new year*/
+	/*background-image: url("../images/cny-repeat-bg.jpg");*/
+
+	/*valentine*/
+	/*background-color: #E30569;*/
+	/*background-image: url("../images/val-repeat-bg.jpg");*/
+	/******************/
+
+	/* march */
+	background-color: #000000;
+	background-image: url("../images/march-bg.jpg");
+
+    background-repeat: repeat;
+
+    /*color: #fff;
+    font-weight: bold;
+    line-height: 50px;
+    height: 110px;
+    padding: 0 5px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    */
+
+    color: #fff;
+    font-weight: bold;
+    width: 150px;
+    padding: 0 5px 10px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+
+}
+
+.top-left-container
+{
+	float:left;
+	height:50px;
+	width:auto;
+}
+
+.top-right-container
+{
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 30px;
+	height: 30px;
+	width: 550px;
+	border:1px solid #fff;
+	border-radius: 10px;
+	background-color: #000;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.bottom-left-container
+{
+	float:left;
+	height: 50px;
+	width:auto;
+}
+
+.bottom-right-container
+{
+	float:right;
+	height: 50px;
+	width:auto;
+}
+
+.navigation #title{
+	font-family: arial;
+	margin-left: 20px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: white;
+    text-shadow: 1px 1px 10px white, 0 0 25px blue, 0 0 10px white;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*border:1px solid #fff;*/
+	/*border-radius: 0px 0px 20px 20px;*/
+	/*background-color: black;*/
+}
+
+.navigation .root
+{
+	/*padding: 0;
+	float:right;
+	margin:0 20px 0 0;
+	height: 50px;
+	line-height: 50px;*/
+
+	bottom: 20;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 0px 0px 0px 25px;
+    padding: 0;
+    position: absolute;
+    left: 0;
+}
+
+.navigation .root li
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	float:left;
+	list-style: none;
+	color:#fff;
+	/*height:50px;*/
+	padding: 0 20px;
+	position:relative;
+	border:1px solid #fff;
+	border-bottom-width: 0px;
+	border-radius: 10px 10px 0px 0px ;
+	background-color: #000;
+}
+
+.navigation .root li:hover
+{
+	background: #396;
+	/*background-color: #800000;*/
+}
+
+.navigation .root li:hover ul
+{
+	display:block;
+}
+
+.navigation .root li a
+{
+	float:left;
+	color:#fff;
+}
+
+
+.navigation .root li ul
+{
+	margin:50px 0 0 0;
+	background:#369;
+	background-color: #002447;
+	display:none;
+	position:absolute;
+	padding: 0;
+	border:1px solid #000;
+	border-bottom:none;
+	border-radius: 0px;
+}
+
+.navigation .root li ul li a
+{
+	float:none;
+}
+
+.navigation .root li ul li
+{
+	margin:0;
+	border-bottom:1px solid #000;
+	border-radius: 0px;
+	width:200px;
+	height:30px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.top-right-content-1
+{
+	float:left;
+	width:200px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #E6E6E6;
+	line-height: 30px;
+}
+.top-right-content-2
+{
+	float:left;
+	width:150px;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #E6E6E6;
+	line-height: 30px;
+}
+.top-right-content-1:hover, .top-right-content-2:hover
+{
+	color: #FFFF00;
+}
+
+.top-right-content-1 a, .top-right-content-2 a {color: #FFF;}
+.top-right-content-1 a:hover, .top-right-content-2 a:hover {color: #FFFF00;}
+
+.top-separator
+{
+	float:left;
+	width:10px;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #E6E6E6;
+	line-height: 30px;
+}
+
+.bottom-right-content
+{
+	margin-right: 30px;
+	bottom:0;
+	right:0;
+}
+
+.super-bottom
+{
+	background-color: #fff;
+	border:1px solid #FFFFFF;
+	border-radius: 0px 15px 0px 0px;
+	height: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}

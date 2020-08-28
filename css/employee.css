@@ -1,0 +1,180 @@
+	.left_container
+	{
+		float:left;
+		width:49%;
+		margin-bottom:50px !important;
+	}
+	.right_container
+	{
+		float:right;
+		width:49%;
+		margin-bottom:50px !important;
+	}
+	.full_container
+	{
+		width:100% !important;
+		margin-bottom:50px !important;
+		clear:both;
+	}
+	.header_container
+	{
+		margin: 10px;
+		margin-bottom:0px;
+		border:1px solid #CCC;
+		min-height: 50px;
+	}
+	.header_row
+	{
+		width:100% !important;
+		height:50px!important;
+		background-color: #000033 !important;
+		color: #ffffff;
+		font-weight: bold;
+		font-size:14pt;
+		line-height: 50px;
+		vertical-align: middle !important;
+	}
+	.body_container
+	{
+		margin: 10px;
+		margin-top:0px;
+		margin-bottom:0px;
+		border:1px solid #CCC;
+		/*min-height: 50px;*/
+		clear:both;
+	}
+	.body_row
+	{
+		width:100% !important;
+		padding:10px;
+		clear:both;
+		height:35px;
+	}
+	.footer_container
+	{
+		margin: 10px;
+		margin-top:0px;
+		margin-bottom:9px;
+		border:1px solid #CCC;
+		min-height: 25px;
+		text-align: right;
+	}
+	.FormLabel
+	{
+		height:30px;
+		font-weight: bold;
+		font-family: 'droid_sansregular';
+        font-family: 'open_sanscondensed_light' !important;
+        /*font-family: 'Roboto Mono', monospace;*/
+		font-size: 12pt;
+		text-align: left;
+		line-height: 30px;
+		vertical-align: middle;
+		width:20%;
+		float:left;
+		letter-spacing: 1px;
+	}
+	.FormInput
+	{
+		width:75% !important;
+		height:30px;
+		line-height: 30px;
+		vertical-align: middle;
+		font-size: 12pt;
+		font-family: 'droid_sansregular';
+        font-family: 'open_sanscondensed_light' !important;
+		float:left;
+		text-transform: uppercase;
+	}
+	.FormInput input[type="text"], select
+	{
+		width:95% !important;
+		text-transform: uppercase;
+	}
+	.FormInput input:focus, select:focus
+	{
+		background-color: yellow;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	.InputBorder
+	{
+		border:1px solid #CCC !important;
+	}
+	.labelInput
+	{
+		border:1px solid #CCC !important;
+		border-radius:5px;
+		padding:2px 10px 2px 10px;		
+		width:70% !important;
+		float:left;
+		font-size:12pt;
+	}
+	w
+	{
+		color:red;
+	}
+	button 
+	{
+		border-radius: 5px;
+		margin-right:5px !important;		
+	}
+	.button_edit 
+	{
+		background-color: #99ccff;
+	}
+	.button_save
+	{
+		background-color: #66ff66;
+	}
+	.button_cancel
+	{
+		background-color: #ff0066;
+	}
+	.UploadLabel
+	{
+		float:left;
+		width:40%;
+		font-size: 13px;
+		font-weight: bold;
+		padding-top:5px;
+	}
+	.UploadInput
+	{
+		float:left;
+		width:60%;
+	}
+	.view_employee 
+	{
+		margin-bottom:50px !important;
+	}
+	.otherDoc 
+	{
+		padding:5px;
+		font-size: 14px;
+	}
+	.header_label
+	{
+		float:left;
+		padding-left:10px;
+		font-size:15px;
+	}
+
+	.user_id
+	{
+		border-bottom:1px solid #ccc;
+		background-color:#D0FCA7;
+		text-align: center;
+		font-size: 12pt;
+		padding:10px;
+		margin-bottom:15px;
+	}
+
+	.checkboxes
+	{
+        font-family: 'open_sanscondensed_light' !important;
+		font-size: 12pt;
+		padding-top:5px;
+		padding-bottom:5px;
+	}

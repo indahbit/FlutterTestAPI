@@ -1,0 +1,12 @@
+.help-body{}
+.help-header{}
+.help-item-container{}
+.help-item{
+	line-height:30px;
+	vertical-align: middle;
+}
+.help-item-icon{}
+.help-item-text{
+	float:left; line-height:50px; vertical-align:middle;
+	padding-left: 15px;
+}
